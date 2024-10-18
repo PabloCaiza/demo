@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+  inputValue = ""
   constructor() {}
+  onButtonClick(){
+    console.log(this.inputValue)
+  }
 }
